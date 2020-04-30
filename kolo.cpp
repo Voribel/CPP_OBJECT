@@ -34,3 +34,9 @@ using namespace std;
         cout << setprecision(2);
         cout << "Kolo o promieniu "<< promien << " ma obwod "<< obwod << " i pole "<< pole;
     };
+    Kolo::Kolo(const Kolo& obj2){
+        this->promien = obj2.promien;
+        this->srednica = obj2.srednica;
+        this->pole = obj2.pole;
+        this->obwod = obj2.obwod;
+    }
