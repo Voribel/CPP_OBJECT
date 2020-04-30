@@ -4,7 +4,7 @@ using namespace std;
 
 class Kolo{
     private:
-        int promien,srednica,pole,obwod;
+        double promien,srednica,pole,obwod;
     public:
         Kolo(int=10);
         ~Kolo();
